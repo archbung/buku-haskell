@@ -61,4 +61,4 @@ Buatlah fungsi untuk menghitung ekspresi-ekspresi berikut:
 - $(x - y) * (x + y)$
 - $(x - y) * (x - y)$
 - Jumlah dari $n$ suku pertama barisan ${1,2,3..}$
-- Jumlah dari $n$ suku pertama barisan ${1,4,9..}$ 
+- Jumlah dari $n$ suku pertama barisan ${1,4,9..}$
