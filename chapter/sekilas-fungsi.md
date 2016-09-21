@@ -6,13 +6,11 @@ Ini berarti fungsi dalam Haskell dapat menjadi masukan maupun keluaran bagi fung
 Fungsi di dalam Haskell adalah fungsi yang *pure*, yang berarti fungsi-fungsi tersebut tidak dapat menghasilkan efek samping seperti menuliskan sesuatu ke layar maupun mengubah variabel global seperti pada bahasa pemrograman lain.
 Karena itu, fungsi-fungsi dalam Haskell akan selalu menghasilkan nilai yang sama apabila diberikan argumen yang sama.
 Sifat ini disebut sebagai *referential transparency*.
-Karena sifat *referential transparency* dan [*immutable variable*] inilah Haskell disebut sebagai *pure functional programming language*.
+Karena sifat *referential transparency* dan *immutable variable* inilah Haskell disebut sebagai *pure functional programming language*.
 
 Pada **Lab 2**, pembaca telah bertemu dengan beberapa fungsi standar Haskell, seperti `reverse`, `head`, dan `tail`.
 Pembaca juga telah mencoba melihat apa fungsi dari fungsi-fungsi tersebut dengan mengaplikasikannya, misalnya dengan mengevaluasi ekspresi `reverse [1,2,3,4]`.
 Nilai dari ekspresi ini ditampilkan ke layar oleh GHCI; `reverse` tidak dapat menampilkan apapun ke layar.
-
-[*immutable variable*]: (chapter/immutable.md)
 
 
 ## Aplikasi Fungsi
@@ -47,7 +45,7 @@ Untuk mendefinisikan fungsi dalam Haskell, gunakan dua aturan berikut:
 - Nama fungsi diawali huruf kecil
 - Deklarasi fungsi dimulai dengan menuliskan nama fungsinya, lalu diikuti dengan nama argumennya dengan dipisahkan oleh spasi dan diakhiri dengan `=`, lalu masukkan definisi fungsinya.
 
-```
+```haskell
 double x = 2 * x
 ```
 
