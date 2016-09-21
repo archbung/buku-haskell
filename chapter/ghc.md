@@ -47,6 +47,9 @@ Ok, modules loaded: Main.
 *Main>
 ```
 
+Untuk menutup GHCI, kita dapat memasukkan perintah `:q` ("quit") pada prompt GHCI.
+
+
 ## Lab 2
 
 Perhatikan ekspresi-ekspresi berikut dan perkirakan nilainya, lalu masukkan ke dalam GHCI dan perhatikan nilainya.
@@ -106,4 +109,3 @@ Tambahkan `nama_depan = "hizbullah"` di akhir `pertama.hs`, lalu muat kembali ke
 Hapus baris `nama_depan = "hizbullah"` dari `lab_3.hs` dan tambahkan baris `d = d + 1`. Muat kembali file ini, lalu evaluasi nilai `d. `
 
 >Untuk menghentikan proses evaluasi, tekan **Ctrl-C**.
-
