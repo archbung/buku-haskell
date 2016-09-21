@@ -72,6 +72,7 @@ div 5 3 + 2
 'p' : "radityo"
 "pradityo" ++ " utomo"
 head [1,2,3,4]
+length [1,2,3,4]
 tail [1,2,3,4]
 reverse [1,2,3,4]
 head (reverse [1,2,3,4])
