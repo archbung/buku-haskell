@@ -31,7 +31,7 @@ tukar (10, 20);
 
 ## Operator
 
-Setiap operator Haskell pada dasarnya adalah fungsi yang mengambil dua argumen. Sebagai contoh, operator `-` adalah fungsi `(-)` sehingga ekspresi `5 - 3` sama dengan `(-) 5 3`. Sebaliknya, kita dapat pula mengubah fungsi dengan dua argumen menjadi operator, misalnya `div 5 3` ekuivalen dengan `5 ``div`` 3`.
+Setiap operator Haskell pada dasarnya adalah fungsi yang mengambil dua argumen. Sebagai contoh, operator `-` adalah fungsi `(-)` sehingga ekspresi `5 - 3` sama dengan `(-) 5 3`. Sebaliknya, kita dapat pula mengubah fungsi dengan dua argumen menjadi operator, misalnya `div 5 3` ekuivalen dengan ``5 `div` 3``.
 
 Operator Haskell memiliki daya ikat (*precedence*) yang berbeda-beda, misalnya `*` mengikat lebih kuat daripada `+` sehingga dievaluasi terlebih dahulu.
 Operator Haskell dengan daya ikat paling kuat adalah "operator" aplikasi fungsi yaitu spasi.
@@ -45,20 +45,19 @@ Let's make our first Haskell function!
 Untuk mendefinisikan fungsi dalam Haskell, gunakan dua aturan berikut:
 
 - Nama fungsi diawali huruf kecil
-- Deklarasi fungsi dimulai dengan menuliskan nama fungsinya, lalu diikuti dengan nama argumennya dengan dipisahkan oleh spasi dan diakhiri dengan `=`.
-```
-double x =
-```
-- Masukkan definisi fungsinya.
+- Deklarasi fungsi dimulai dengan menuliskan nama fungsinya, lalu diikuti dengan nama argumennya dengan dipisahkan oleh spasi dan diakhiri dengan `=`, lalu masukkan definisi fungsinya.
+
 ```
 double x = 2 * x
 ```
 
 ## Lab 5
 
-Buatlah fungsi untuk menghitung ekspresi-ekspresi berikut:
+Buatlah fungsi untuk menghitung ekspresi-ekspresi berikut, lalu simpan ke dalam file `fungsi.hs`.
 
-- $(x - y) * (x + y)$
-- $(x - y) * (x - y)$
-- Jumlah dari $n$ suku pertama barisan ${1,2,3..}$
-- Jumlah dari $n$ suku pertama barisan ${1,4,9..}$
+- $$(x - y) * (x + y)$$
+- $$(x - y) * (x - y)$$
+- Jumlah dari $$n$$ suku pertama barisan $${1,2,3..}$$
+- Jumlah dari $$n$$ suku pertama barisan $${1,4,9..}$$
+
+Muat file `fungsi.hs` ke dalam GHCI lalu periksa apakah fungsi yang dibuat sudah benar.
