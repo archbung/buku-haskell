@@ -1,1 +1,1 @@
-# Siste Tipe
+# Kelas Tipe
