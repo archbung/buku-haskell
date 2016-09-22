@@ -1,6 +1,6 @@
 # Summary
 
-* [Sekilas Mengenai Haskell](README.md)
+* [Prakata](README.md)
 * [Memulai](chapter/start.md)
 * [GHC](chapter/ghc.md)
 * [Immutable Variable](chapter/immutable.md)
@@ -10,10 +10,7 @@
 * [Zen of Programming](chapter/zen.md)
 * [Tuple](chapter/tuple.md)
 * [List](chapter/list.md)
-* [List Comprehension](chapter/list-compre.md)
-* [Sistem Tipe](chapter/type-system.md)
+* [List Comprehension](chapter/list-comprehension.md)
 * [Pattern Matching](chapter/pattern-match.md)
 * [Rekursi](chapter/rekursi.md)
 * [Create Your Type](chapter/your-type.md)
-* [Komposisi Fungsi](chapter/composition.md)
-* [Fungsi Orde Tinggi](chapter/higher-order.md)
